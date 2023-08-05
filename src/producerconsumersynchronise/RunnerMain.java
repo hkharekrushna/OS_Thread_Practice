@@ -17,7 +17,7 @@ public class RunnerMain {
 		
 		Set<String> producerNames = Set.of("P1","P2","P3");
 		Set<String> consumerNames = Set.of("C1","C2","C3","C4");
-		int maxSize=200;
+		int maxSize=20;
 		
 		Set<Producer> producerSet= producerNames
 				.stream()
