@@ -1,4 +1,4 @@
-package producerconsumer;
+package producerconsumersynchronise;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -30,11 +30,7 @@ public class RunnerMain {
 				.collect(Collectors.toSet());
 		
 		producerSet.forEach(producer -> new Thread(producer).start());
-		consumerSet.forEach(consumer -> new Thread(consumer).start());
-		
-		
-		
-		
+		consumerSet.forEach(consumer -> new Thread(consumer).start());	
 		
 	}
 

@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>os-thread</name>
   <description>os-thread</description>
-  
+   
   <dependencies>
 	<dependency>
 		<groupId>org.projectlombok</groupId>
